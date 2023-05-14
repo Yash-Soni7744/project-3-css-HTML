@@ -41,7 +41,6 @@ html,body{
     padding: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
-    transition: 0.7s ease-in-out;
     text-transform: uppercase;
 }
 .para1{
@@ -56,4 +55,10 @@ html,body{
 p{
     text-align: justify;
     font-size: small;
+}
+.Parallax:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.7s ease-in-out;
+    shadow: rgb(224, 57, 57);
 }
